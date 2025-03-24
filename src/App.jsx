@@ -5,25 +5,22 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-
-
+import './App.css';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('About Me');
 
   return (
-    <>
+    <div className="app-container">
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-      {/* Placeholder for pages */}
-      <main>
+      <main className="content">
         {currentSection === 'About Me' && <AboutMe />}
         {currentSection === 'Portfolio' && <Portfolio />}
         {currentSection === 'Contact' && <Contact />}
         {currentSection === 'Resume' && <Resume />}
       </main>
       <Footer />
-    </>
-    
+    </div>
   );
 };
 

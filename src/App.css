@@ -72,23 +72,56 @@ input, textarea {
   font-size: 0.85rem;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-top: 1px solid #ccc;
+body {
+  background-color: #3b5998; /* Shared blue background for all tabs */
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh; /* Ensures the full page height is utilized */
 }
 
-footer a {
-  margin: 0 0.5rem;
-  text-decoration: none;
-  color: #007bff;
+header {
+  width: 100%;
+  background-color: #3b5998; /* Matches the background color */
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Keeps header fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures it stays above other content */
 }
 
-footer a:hover {
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav li {
+  cursor: pointer;
+}
+
+header nav li:hover {
   text-decoration: underline;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  margin-top: 4rem; /* Avoid overlapping with the fixed header */
+  flex-grow: 1; /* Ensures content fills available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
