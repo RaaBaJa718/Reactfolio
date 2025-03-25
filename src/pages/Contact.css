@@ -1,5 +1,5 @@
 .contact {
-        background-color: #3b5998; /* Blue background */
+        background-color: #101c36; /* Blue background */
         color: white;
         padding: 2rem;
         display: flex;
@@ -11,7 +11,7 @@
       .contact-form {
         max-width: 600px;
         width: 100%; /* Makes sure the form stretches within its container */
-        padding: 2rem;
+        padding: 3rem;
         background-color: white;
         color: black;
         border-radius: 8px;
@@ -29,7 +29,7 @@
       .contact-form textarea {
         width: 100%;
         padding: 0.75rem;
-        border: 1px solid #ccc;
+        border: 5px solid #ccc;
         border-radius: 4px;
         font-size: 1rem;
       }

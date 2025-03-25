@@ -73,7 +73,7 @@ input, textarea {
 }
 
 body {
-  background-color: #3b5998; /* Shared blue background for all tabs */
+  background-color: #101c36; /* Shared blue background for all tabs */
   color: white;
   margin: 0;
   padding: 0;
@@ -83,11 +83,11 @@ body {
 
 header {
   width: 100%;
-  background-color: #3b5998; /* Matches the background color */
+  background-color: #4a5c7071; /* Matches the background color */
   color: white;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: start ;
   align-items: center;
   position: fixed; /* Keeps header fixed at the top */
   top: 0;
@@ -98,7 +98,10 @@ header {
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+  padding: 10; 
+  margin-left: 0; 
+
 }
 
 header nav li {
@@ -116,12 +119,17 @@ header nav li:hover {
 }
 
 .content {
-  margin-top: 4rem; /* Avoid overlapping with the fixed header */
-  flex-grow: 1; /* Ensures content fills available space */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Ensures stacked elements */
+  justify-content: flex-start; /* Aligns content to the top */
+  align-items: center; /* Centers content horizontally */
+  margin-top: 4rem; /* Pushes content below the fixed header */
+  width: 100%; /* Full-width content */
+  padding: 2rem; /* Adds spacing inside the content area */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

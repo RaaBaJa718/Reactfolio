@@ -37,10 +37,10 @@ nav li:hover {
 }
 
 .about-me {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem;
+    max-width: 800px; /* Keeps content from stretching too wide */
+    text-align: center; /* Aligns text to the center */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 2rem; /* Adds internal spacing */
   background-color: #f9f9f9;
 }
 
@@ -105,9 +105,11 @@ button:focus-visible {
 }
 
 .portfolio {
-  padding: 2rem;
-  text-align: center;
-}
+    max-width: 800px; /* Keeps content from stretching too wide */
+    text-align: center; /* Aligns text to the center */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 2rem; /* Adds internal spacing */
+  }
 
 .portfolio-grid {
   display: grid;
@@ -123,7 +125,11 @@ button:focus-visible {
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+    max-width: 800px; /* Keeps content from stretching too wide */
+    text-align: center; /* Aligns text to the center */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 2rem; /* Adds internal spacing */
+  }
 
 .project img {
   width: 100%;
