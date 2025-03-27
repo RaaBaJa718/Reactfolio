@@ -6,6 +6,9 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import './App.css';
+import './index.css';
+
+
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('About Me');

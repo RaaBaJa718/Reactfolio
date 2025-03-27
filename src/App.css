@@ -10,11 +10,9 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-  
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -38,7 +36,8 @@ label {
   font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -60,7 +59,8 @@ label {
   font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -77,7 +77,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   min-height: 100vh; /* Ensures the full page height is utilized */
 }
 
@@ -87,7 +87,7 @@ header {
   color: white;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: start ;
+  justify-content: start;
   align-items: center;
   position: fixed; /* Keeps header fixed at the top */
   top: 0;
@@ -99,9 +99,8 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 1rem;
-  padding: 10; 
-  margin-left: 0; 
-
+  padding: 10;
+  margin-left: 0;
 }
 
 header nav li {
@@ -127,7 +126,6 @@ header nav li:hover {
   width: 100%; /* Full-width content */
   padding: 2rem; /* Adds spacing inside the content area */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
-
 }
 
 @keyframes logo-spin {
