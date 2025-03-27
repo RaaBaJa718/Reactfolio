@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       title: 'ReadMeGenie',
       tech: 'Node.js',
-      image: '/path-to-image.jpg',
+      image: '/Icons/genie.jpg',
       deployedLink: 'https://raabaja718.github.io/ReadMeGenie/',
       repoLink: 'https://github.com/RaaBaJa718//ReadMeGenie.git',
     },
