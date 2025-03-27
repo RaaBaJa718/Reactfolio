@@ -23,4 +23,11 @@
     transform: scale(1.05);
   }
 
+  .portfolio h2 {
+    margin-top: 5rem; /* Adds spacing between the header and the title */
+    font-size: 2rem; /* Maintains a prominent size */
+    color: white; /* Keeps text color consistent */
+    text-align: center; /* Ensures the title is centered */
+  }
+
   
