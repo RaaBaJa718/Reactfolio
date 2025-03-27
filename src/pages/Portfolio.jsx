@@ -1,14 +1,15 @@
 import React from 'react';
 import './Portfolio.css';
+import Project from '../components/Project';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Surf Report',
-      tech: 'MERN Stack',
+      title: 'ReadMeGenie',
+      tech: 'Node.js',
       image: '/path-to-image.jpg',
-      deployedLink: 'https://example.com/surf-report',
-      repoLink: 'https://github.com/username/surf-report',
+      deployedLink: 'https://raabaja718.github.io/ReadMeGenie/',
+      repoLink: 'https://github.com/RaaBaJa718//ReadMeGenie.git',
     },
     {
       title: 'Portfolio Builder',

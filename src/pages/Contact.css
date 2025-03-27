@@ -25,6 +25,13 @@
     gap: 1.5rem; /* Adds spacing between elements */
 }
 
+.contact h2 {
+    margin-top: 5rem; /* Adds space between header and title */
+    font-size: 2rem; /* Keep the title prominent */
+    text-align: center; /* Align the title in the center */
+    color: white; /* Maintain consistent styling */
+  }
+
 /* Styling for "Contact Me" Heading */
 .contact-heading {
     font-size: 2rem; /* Adjust as needed */
@@ -35,7 +42,7 @@
 /* Label Styling */
 .contact-form label {
     font-weight: bold;
-    text-align: left; /* Align label text */
+    text-align: center; /* Align label text */
     margin-bottom: 0.5rem;
     display: block; /* Ensure label is on its own line */
 }
@@ -50,6 +57,7 @@
     border-radius: 4px; /* Rounded corners */
     font-size: 1rem;
     margin: 0 auto; /* Center fields */
+    text-align: center;
 }
 
 /* Button Styling */

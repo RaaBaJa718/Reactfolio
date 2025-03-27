@@ -3,7 +3,9 @@ import React from 'react';
 const Resume = () => {
   return (
     <section>
-      <h2>Resume</h2>
+      <h2 style={{ marginTop: '5rem', fontSize: '2rem', color: 'white', textAlign: 'center' }}>
+  Resume
+</h2>
       <p>
         <a href="/path-to-your-resume.pdf" download>
           Download My Resume
