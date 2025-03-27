@@ -1,32 +1,70 @@
 const AboutMe = () => (
-  <section>
-    <h2>About Me</h2>
+  <section
+    style={{
+      maxWidth: "800px",
+      textAlign: "center",
+      margin: "2rem auto",
+      padding: "2rem",
+      backgroundColor: "#101c36",
+    }}
+  >
+    <h2
+      style={{
+        marginTop: "2rem", // Adds spacing between the header and title
+        fontSize: "2rem",
+        color: "#f9f9f9",
+      }}
+    >
+      About Me
+    </h2>
     <img
       src="/Icons/me.jpg"
       alt="Ruben's Avatar"
       style={{
+        borderRadius: "50%",
         width: "100px",
         height: "100px",
-        borderRadius: "50%",
         objectFit: "cover",
       }}
     />
+    <p
+      style={{
+        color: "#555",
+        fontSize: "1rem",
+        lineHeight: "1.5",
+      }}
+    />
     <p>
-      Hi, I’m Ruben, an aspiring full-stack developer embarking on an This
-      experience taught me not only the technical foundations of front-end and
-      back-end development but also the value of problem-solving, collaboration,
-      and writing clean, efficient code. I'm proud of the projects I've built so
-      far, including real-world applications that challenged me to turn ideas
-      into functional solutions. As someone new to the field, my goal is to
-      continue growing my skills and contributing to projects that make a
-      meaningful impact. I'm excited to join a team where I can learn from
-      experienced developers, embrace new challenges, and create applications
-      that enhance people's lives. This is just the beginning, and I can’t wait
-      to sexciting journey into the world of software development. Recently, I
-      completed a comprehensive Full Stack Bootcamp where I immersed myself in
-      building interactive and responsive web applications using technologies
-      like React, Node.js, Express.js, PostgreSQL, and Sequelize. See what the
-      future holds.
+      <strong>Hi, I’m Ruben, an aspiring full-stack developer.</strong>
+    </p>
+
+    <p>
+      I’m embarking on an exciting journey into the world of software
+      development. I am currently attending a comprehensive Full Stack Bootcamp,
+      where I am learning to build interactive and responsive web applications
+      using technologies like React, Node.js, Express.js, PostgreSQL, and
+      Sequelize.
+    </p>
+
+    <p>
+      This experience is teaching me not only the technical foundations of
+      front-end and back-end development but also the value of problem-solving,
+      collaboration, and writing clean, efficient code. I'm proud of the
+      progress I've made so far, including tackling challenging projects that
+      require turning ideas into functional solutions.
+    </p>
+
+    <p>
+      As someone new to the field, my goal is to continue growing my skills and
+      contributing to projects that make a meaningful impact. I’m excited to
+      eventually join a team where I can learn from experienced developers,
+      embrace new challenges, and create applications that enhance people's
+      lives.
+    </p>
+
+    <p>
+      This is just the beginning, and I’m looking forward to seeing where this
+      journey takes me.
     </p>
   </section>
 );

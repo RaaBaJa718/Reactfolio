@@ -1,5 +1,5 @@
 .portfolio {
-    background-color: #101c36; /* Dark blue background from reference */
+    background-color: #101c36; 
     color: white;
     padding: 2rem;
     text-align: center;
@@ -7,7 +7,7 @@
   
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
   
@@ -22,3 +22,5 @@
   .project:hover {
     transform: scale(1.05);
   }
+
+  

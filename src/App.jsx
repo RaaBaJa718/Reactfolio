@@ -21,6 +21,7 @@ const App = () => {
         {currentSection === 'Portfolio' && <Portfolio />}
         {currentSection === 'Contact' && <Contact />}
         {currentSection === 'Resume' && <Resume />}
+        
       </main>
       <Footer />
     </div>

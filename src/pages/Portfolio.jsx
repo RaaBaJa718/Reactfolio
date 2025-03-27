@@ -3,9 +3,51 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   const projects = [
-    { title: 'Surf Report', tech: 'MERN Stack', image: '/path-to-image.jpg' },
-    { title: 'Portfolio Builder', tech: 'React', image: '/path-to-image2.jpg' },
-    // Add more projects as needed
+    {
+      title: 'Surf Report',
+      tech: 'MERN Stack',
+      image: '/path-to-image.jpg',
+      deployedLink: 'https://example.com/surf-report',
+      repoLink: 'https://github.com/username/surf-report',
+    },
+    {
+      title: 'Portfolio Builder',
+      tech: 'React',
+      image: '/path-to-image2.jpg',
+      deployedLink: 'https://example.com/portfolio-builder',
+      repoLink: 'https://github.com/username/portfolio-builder',
+    },
+    {
+      title: 'Surf Report',
+      tech: 'MERN Stack',
+      image: '/path-to-image.jpg',
+      deployedLink: 'https://example.com/surf-report',
+      repoLink: 'https://github.com/username/surf-report',
+    },
+    {
+      title: 'Portfolio Builder',
+      tech: 'React',
+      image: '/path-to-image2.jpg',
+      deployedLink: 'https://example.com/portfolio-builder',
+      repoLink: 'https://github.com/username/portfolio-builder',
+    },
+    {
+      title: 'Surf Report',
+      tech: 'MERN Stack',
+      image: '/path-to-image.jpg',
+      deployedLink: 'https://example.com/surf-report',
+      repoLink: 'https://github.com/username/surf-report',
+    },
+    {
+      title: 'Portfolio Builder',
+      tech: 'React',
+      image: '/path-to-image2.jpg',
+      deployedLink: 'https://example.com/portfolio-builder',
+      repoLink: 'https://github.com/username/portfolio-builder',
+    },
+
+
+
   ];
 
   return (

@@ -37,10 +37,10 @@ nav li:hover {
 }
 
 .about-me {
-    max-width: 800px; /* Keeps content from stretching too wide */
-    text-align: center; /* Aligns text to the center */
-    margin: 0 auto; /* Centers the section horizontally */
-    padding: rem; /* Adds internal spacing */
+    max-width: 800px; 
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 2rem; /* Adds internal spacing */
   background-color: #f9f9f9;
 }
 

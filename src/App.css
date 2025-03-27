@@ -83,16 +83,17 @@ body {
 
 header {
   width: 100%;
-  background-color: #4a5c7071; /* Matches the background color */
+  background-color: #4a5c70; /* Slight transparency */
   color: white;
   padding: 1rem 2rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  position: fixed; /* Keeps header fixed at the top */
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000; /* Ensures it stays above other content */
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* Optional: adds blur effect */
 }
 
 header nav ul {
