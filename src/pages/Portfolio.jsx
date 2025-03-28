@@ -59,7 +59,7 @@ const Portfolio = () => {
         className="portfolio-grid"
         style={{
           margin: '0 auto', // Centers the grid horizontally
-          maxWidth: '1200px', // Adds a reasonable width limit
+          maxWidth: '900px', // Adds a reasonable width limit
           transform: 'translateX(-180px)', // Optional: Slightly moves the grid to the left
         }}
       >
