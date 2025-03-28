@@ -4,27 +4,9 @@ import Project from '../components/Project';
 
 const Portfolio = () => {
   const projects = [
-    {
-      title: 'ReadMeGenie',
-      tech: 'JavaScript',
-      image: '/Icons/genie.webp', // Ensure this file exists in the public/Icons directory
-      deployedLink: 'https://raabaja718.github.io/ReadMeGenie/',
-      repoLink: 'https://github.com/RaaBaJa718/ReadMeGenie.git',
-    },
-    {
-      title: 'VroomVroom-VehicleVault',
-      tech: 'TypeScript',
-      image: '/Icons/vroom.jpg', // Replace with the actual image path
-      deployedLink: 'https://example.com/portfolio-builder',
-      repoLink: 'https://github.com/RaaBaJa718/VroomVroom-VehicleVault.git',
-    },
-    {
-      title: 'WorkWarden',
-      tech: 'JavaScript',
-      image: '/Icons/workwarden.png', // Replace with the actual image path
-      deployedLink: 'https://example.com/portfolio-builder',
-      repoLink: 'https://github.com/RaaBaJa718/WorkWarden.git',
-    },
+    
+    
+    
     {
       title: 'Odin Recipes',
       tech: 'HTML',
@@ -46,6 +28,28 @@ const Portfolio = () => {
       deployedLink: 'https://raabaja718.github.io/prework-study-guide/',
       repoLink: 'https://github.com/RaaBaJa718/prework-study-guide.git',
     },
+    {
+      title: 'ReadMeGenie',
+      tech: 'JavaScript',
+      image: '/Icons/genie.webp', // Ensure this file exists in the public/Icons directory
+      deployedLink: 'https://raabaja718.github.io/ReadMeGenie/',
+      repoLink: 'https://github.com/RaaBaJa718/ReadMeGenie.git',
+    },
+    {
+      title: 'VroomVroom-VehicleVault',
+      tech: 'TypeScript',
+      image: '/Icons/vroom.jpg', // Replace with the actual image path
+      deployedLink: 'https://example.com/portfolio-builder',
+      repoLink: 'https://github.com/RaaBaJa718/VroomVroom-VehicleVault.git',
+    },
+    {
+      title: 'WorkWarden',
+      tech: 'JavaScript',
+      image: '/Icons/workwarden.png', // Replace with the actual image path
+      deployedLink: 'https://raabaja718.github.io/WorkWarden/',
+      repoLink: 'https://github.com/RaaBaJa718/WorkWarden.git',
+    },
+
   ];
 
   return (

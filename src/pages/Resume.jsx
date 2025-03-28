@@ -7,7 +7,7 @@ const Resume = () => {
   Resume
 </h2>
       <p>
-        <a href="/path-to-your-resume.pdf" download>
+        <a href="/public/Icons/resume.pdf" download>
           Download My Resume
         </a>
       </p>
