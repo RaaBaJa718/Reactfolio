@@ -127,6 +127,7 @@ header nav li:hover {
   width: 100%; /* Full-width content */
   padding: 2rem; /* Adds spacing inside the content area */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
+  
 }
 
 @keyframes logo-spin {

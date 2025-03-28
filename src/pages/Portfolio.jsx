@@ -6,61 +6,67 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'ReadMeGenie',
-      tech: 'Node.js',
-      image: '/Icons/genie.jpg',
+      tech: 'JavaScript',
+      image: '/Icons/genie.webp', // Ensure this file exists in the public/Icons directory
       deployedLink: 'https://raabaja718.github.io/ReadMeGenie/',
-      repoLink: 'https://github.com/RaaBaJa718//ReadMeGenie.git',
+      repoLink: 'https://github.com/RaaBaJa718/ReadMeGenie.git',
     },
     {
-      title: 'Portfolio Builder',
-      tech: 'React',
-      image: '/path-to-image2.jpg',
+      title: 'VroomVroom-VehicleVault',
+      tech: 'TypeScript',
+      image: '/Icons/vroom.jpg', // Replace with the actual image path
       deployedLink: 'https://example.com/portfolio-builder',
-      repoLink: 'https://github.com/username/portfolio-builder',
+      repoLink: 'https://github.com/RaaBaJa718/VroomVroom-VehicleVault.git',
     },
     {
-      title: 'Surf Report',
-      tech: 'MERN Stack',
-      image: '/path-to-image.jpg',
-      deployedLink: 'https://example.com/surf-report',
-      repoLink: 'https://github.com/username/surf-report',
-    },
-    {
-      title: 'Portfolio Builder',
-      tech: 'React',
-      image: '/path-to-image2.jpg',
+      title: 'WorkWarden',
+      tech: 'JavaScript',
+      image: '/Icons/workwarden.png', // Replace with the actual image path
       deployedLink: 'https://example.com/portfolio-builder',
-      repoLink: 'https://github.com/username/portfolio-builder',
+      repoLink: 'https://github.com/RaaBaJa718/WorkWarden.git',
     },
     {
-      title: 'Surf Report',
-      tech: 'MERN Stack',
-      image: '/path-to-image.jpg',
-      deployedLink: 'https://example.com/surf-report',
-      repoLink: 'https://github.com/username/surf-report',
+      title: 'Odin Recipes',
+      tech: 'HTML',
+      image: '/Icons/odin.png', // Replace with the actual image path
+      deployedLink: 'https://raabaja718.github.io/odin-recipes/',
+      repoLink: 'https://github.com/RaaBaJa718/odin-recipes.git',
     },
     {
-      title: 'Portfolio Builder',
-      tech: 'React',
-      image: '/path-to-image2.jpg',
-      deployedLink: 'https://example.com/portfolio-builder',
-      repoLink: 'https://github.com/username/portfolio-builder',
+      title: 'Word_Scramble',
+      tech: 'HTML/CSS/JavaScript',
+      image: '/Icons/word.jpg', // Replace with the actual image path
+      deployedLink: 'https://mmullen4.github.io/Word_Scramble/',
+      repoLink: 'https://github.com/MMullen4/Word_Scramble.git',
     },
-
-
-
+    {
+      title: 'prework-study-guide',
+      tech: 'HTML/CSS/JavaScript',
+      image: '/Icons/study.png', // Replace with the actual image path
+      deployedLink: 'https://raabaja718.github.io/prework-study-guide/',
+      repoLink: 'https://github.com/RaaBaJa718/prework-study-guide.git',
+    },
   ];
 
   return (
     <section className="portfolio">
       <h2>My Work</h2>
-      <div className="portfolio-grid">
+      <div
+        className="portfolio-grid"
+        style={{
+          margin: '0 auto', // Centers the grid horizontally
+          maxWidth: '1200px', // Adds a reasonable width limit
+          transform: 'translateX(-180px)', // Optional: Slightly moves the grid to the left
+        }}
+      >
         {projects.map((project, index) => (
-          <div className="project" key={index}>
-            <img src={project.image} alt={project.title} />
-            <h3>{project.title}</h3>
-            <p>{project.tech}</p>
-          </div>
+          <Project
+            key={index}
+            title={project.title}
+            image={project.image}
+            deployedLink={project.deployedLink}
+            repoLink={project.repoLink}
+          />
         ))}
       </div>
     </section>

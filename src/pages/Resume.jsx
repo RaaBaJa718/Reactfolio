@@ -12,11 +12,11 @@ const Resume = () => {
         </a>
       </p>
       <ul>
-        <li>Proficiency 1: React</li>
-        <li>Proficiency 2: JavaScript</li>
-        <li>Proficiency 3: CSS</li>
-        <li>Proficiency 4: HTML</li>
-        <li>Proficiency 5: Responsive Design</li>
+        <p>Proficiency 1: JavaScript, TypeScript, HTML, CSS, Python</p>
+        <p>Proficiency 2: React, Node.js, Express.js</p>
+        <p>Proficiency 3: MySQL</p>
+        <p>Proficiency 4: Git, GitHub</p>
+        <p>Proficiency 5: Responsive Design</p>
         {/* Add more proficiencies as needed */}
       </ul>
     </section>

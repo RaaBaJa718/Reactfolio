@@ -1,33 +1,75 @@
+/* General Portfolio Section Styling */
 .portfolio {
-    background-color: #101c36; 
-    color: white;
-    padding: 2rem;
-    text-align: center;
-  }
-  
+  background-color: #101c36; /* Dark background for portfolio */
+  color: rgb(255, 255, 255); /* White text for readability */
+  padding: 2rem; /* Adds space around the section */
+  text-align: center; /* Center-aligns content */
+}
+
+.portfolio h2 {
+  margin-top: 5rem; /* Adds spacing between the header and the title */
+  font-size: 2rem; /* Prominent size for title */
+  color: white; /* Keeps text color consistent */
+  text-align: center; /* Ensures the title is centered */
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 2rem;
   .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    width: 90%;
+    max-width: 1200px;
   }
   
-  .project {
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 8px;
-    transition: transform 0.2s;
-  }
-  
-  .project:hover {
-    transform: scale(1.05);
-  }
+}
 
-  .portfolio h2 {
-    margin-top: 5rem; /* Adds spacing between the header and the title */
-    font-size: 2rem; /* Maintains a prominent size */
-    color: white; /* Keeps text color consistent */
-    text-align: center; /* Ensures the title is centered */
-  }
+/* Individual Project Styling */
+.project {
+  background-color: #ffffff; /* Light gray background for projects */
+  color: black; /* Black text color */
+  padding: 1rem; /* Adds padding inside the project box */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.2s; /* Smooth zoom effect on hover */
+}
 
-  
+.project:hover {
+  transform: scale(1.05); /* Zooms in slightly on hover */
+}
+
+/* Hover Effect for Project Images */
+.project-image-container {
+  position: relative; /* Allows the overlay icon to be positioned over the image */
+  width: 100%; /* Full width of container */
+  overflow: hidden; /* Ensures content stays inside container */
+}
+
+.project-image-container img {
+  display: block; /* Ensures the image has no gaps */
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Keeps aspect ratio */
+}
+
+/* GitHub Icon Link Styling */
+.github-icon-link {
+  position: absolute; /* Places the icon on top of the image */
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); /* Ensures perfect centering */
+  opacity: 0; /* Icon is hidden by default */
+  transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+  z-index: 10; /* Ensures icon is above the image */
+}
+
+.github-icon {
+  width: 50px; /* Size of the GitHub icon */
+  height: 50px; /* Match width for square icon */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%; /* Makes the icon circular */
+  padding: 8px; /* Adds space around the icon */
+}
+
+/* Hover Effect to Display GitHub Icon */
+.project-image-container:hover .github-icon-link {
+  opacity: 1; /* Makes the icon visible on hover */
+}

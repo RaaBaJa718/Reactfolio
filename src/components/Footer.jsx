@@ -2,7 +2,7 @@ const Footer = () => (
   <footer className="footer">
     <p>&copy; 2025 Ruben's Portfolio</p>
     <div className="social-icons">
-      <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/RaaBaJa718" target="_blank" rel="noopener noreferrer">
         <img src="/Icons/github.png" alt="GitHub" />
       </a>
       <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
