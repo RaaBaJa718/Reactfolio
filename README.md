@@ -6,6 +6,8 @@ This project is a personal portfolio built using **React** and **Vite**. It show
 
 # Description
 
+This project is a **React-based portfolio website** designed to showcase my work, skills, and professional journey. Built with **Vite** for fast development and optimized performance, the portfolio features an interactive project grid, downloadable resume, and responsive design for accessibility across devices. Deployed on **Netlify**, the site is a live and dynamic way to highlight my accomplishments and share my story with potential collaborators and employers.
+
 # Table of Contents
 
 1. Description
