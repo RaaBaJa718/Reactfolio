@@ -2,6 +2,30 @@
 
 This project is a personal portfolio built using **React** and **Vite**. It showcases my work, technical skills, and projects I have developed. The portfolio includes hover effects, direct links to live applications, GitHub repositories, and more.
 
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+# Description
+
+# Table of Contents
+
+1. Description
+
+2. Features
+
+3. Technologies
+
+4. Installation and Setup
+
+5. Build and Deployment
+
+6. Projects Displayed
+
+7. React + Vite
+
+8. Expanding the ESLint configuration
+
+9. License
+
 # Features
 
 * **Interactive Portfolio Grid**: Displays projects with titles, technologies used, and thumbnail previews.
@@ -91,15 +115,17 @@ Before deploying, ensure that the project is built for production:
   
 # Projects Displayed
 
-1. ReadMeGenie
+1. Odin Recipes
 
-2. VroomVroom-VehicleVault
+2. Word Scramble
 
-3. WorkWarden
+3. Prework Study Guide
 
-License
+4. ReadMeGenie
 
-This project is open-source and available under the MIT License.
+5. VroomVroom-VehicleVault
+
+6. WorkWarden
 
 # React + Vite
 
@@ -113,3 +139,8 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# License
+
+This project is open-source and available under the MIT License.
+
