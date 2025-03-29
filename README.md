@@ -31,12 +31,13 @@ Follow these steps to run the project locally:
 
 ![Step 1: Clone the Repository](public/Icons/step1.png)
 
-
-
 2. **Install Dependencies**
  
 Ensure Node.js and npm are installed, then run:
-      * npm install
+
+![Step 2: Clone the Repository](public/Icons/step2.png)
+
+
 
 3. **Run the Development Server**
  
