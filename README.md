@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
 
 1. **Clone the Repository**
 
-![Step 1: Clone the Repository](public\Icons\step1.png)
+![Step 1: Clone the Repository](public/Icons/step1.png)
 
 
 
