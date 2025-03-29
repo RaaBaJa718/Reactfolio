@@ -22,11 +22,13 @@ This project is a **React-based portfolio website** designed to showcase my work
 
 6. Projects Displayed
 
-7. React + Vite
+7. Live Demo
 
-8. Expanding the ESLint configuration
+8. React + Vite
 
-9. License
+9. Expanding the ESLint configuration
+
+10. License
 
 # Features
 
@@ -128,6 +130,12 @@ Before deploying, ensure that the project is built for production:
 5. VroomVroom-VehicleVault
 
 6. WorkWarden
+
+# Live Demo
+
+Check out the live version of the portfolio deployed on Netlify:
+
+[resplendent-cucurucho-fe4678.netlify.app](https://resplendent-cucurucho-fe4678.netlify.app/)
 
 # React + Vite
 
